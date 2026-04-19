@@ -9,6 +9,7 @@ Each phase is a markdown prompt you paste into an LLM (Claude, GPT-4, etc.). The
 | Phase | Goal | Prompt |
 |-------|------|--------|
 | 1 — Define the Problem | Clarify what you're actually solving before jumping to solutions | [phases/define-problem.md](phases/define-problem.md) |
+| 2 — Explore Solutions | Generate distinct solutions, map them to the problem, evaluate tradeoffs | [phases/explore-solutions.md](phases/explore-solutions.md) |
 
 ## How to Use
 
