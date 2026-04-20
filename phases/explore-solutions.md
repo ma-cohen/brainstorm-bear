@@ -39,9 +39,7 @@ After reading the problem statement, produce all solutions upfront in this forma
 - What this approach makes hard or expensive
 - The key assumption that must hold for this to work
 
-```mermaid
-[Only include if a diagram genuinely helps understand this solution — e.g. system architecture, data flow, state transition. Leave out if the solution is simple or purely process-based.]
-```
+*Optional: include a Mermaid diagram if it genuinely helps understand the solution — e.g. system architecture, data flow, state transition. Leave out if the solution is simple or purely process-based.*
 
 ---
 
