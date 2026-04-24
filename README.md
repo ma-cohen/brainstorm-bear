@@ -21,6 +21,7 @@ In Cursor chat, type:
 | Command | Purpose |
 |---------|---------|
 | `/bb-define-problem` | Clarify what you're actually solving before jumping to solutions |
+| `/bb-research` | Gather information from codebase or web to fill knowledge gaps |
 | `/bb-explore-solutions` | Generate distinct solutions, map them to the problem, evaluate tradeoffs |
 
 ### Workflow
@@ -29,6 +30,8 @@ In Cursor chat, type:
 2. Once the problem is clear, the bear saves a problem statement to `.brainstorm-bear/<name>-<date>/problem.md`
 3. Use `/bb-explore-solutions` to explore solutions based on the problem statement
 4. The bear saves the decision record to `.brainstorm-bear/<name>-<date>/solutions.md`
+
+**Research when you need it:** At any point, if you realize you're missing information — about how something works in the codebase, what a library supports, or how others have solved similar problems — use `/bb-research`. The bear will help you explore the codebase and/or search the web, then synthesize findings to `.brainstorm-bear/<name>-<date>/research.md`.
 
 ## Design Philosophy
 
