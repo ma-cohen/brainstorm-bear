@@ -39,3 +39,12 @@ The statement must cover:
 - **Constraints:** each labeled FIXED / LIKELY FIXED / WORTH QUESTIONING — be honest, most constraints aren't as fixed as they feel
 - **Success Criteria:** specific enough that someone could say "yes, done" or "no, not yet" — avoid vague language
 - **Open Questions:** things that came up but weren't resolved; a statement with no open questions is usually overconfident
+
+## Saving the Output
+
+After producing the problem statement, save it to the repository:
+
+1. Infer a short kebab-case name from the conversation that captures the core problem (e.g., "auth-refactor", "slow-onboarding", "flaky-tests")
+2. Save the problem statement to `.brainstorm-bear/<name>-<YYYY-MM-DD>/problem.md`
+
+This creates a record the developer can reference later and pass to Phase 2.

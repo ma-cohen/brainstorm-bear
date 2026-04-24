@@ -96,3 +96,7 @@ For each solution that was considered but rejected:
 **What's still open:** Anything unresolved that would affect the approach.
 
 **Next step:** What the developer should do or build first to reduce the biggest risk.
+
+## Saving the Output
+
+After producing the synthesis, save it to the same `.brainstorm-bear/<name>-<date>/` folder where the problem statement lives. Save as `solutions.md`.
