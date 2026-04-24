@@ -2,20 +2,33 @@
 
 A prompt-based system for helping developers think more clearly about what they're actually building.
 
-Each phase is a markdown prompt you paste into an LLM (Claude, GPT-4, etc.). The LLM plays the role of Brainstorm Bear — a thoughtful senior engineer who asks the right questions at the right time.
+Brainstorm Bear is a thoughtful senior engineer who asks the right questions at the right time — helping you define problems before jumping to solutions.
 
-## Phases
+## Installation
 
-| Phase | Goal | Prompt |
-|-------|------|--------|
-| 1 — Define the Problem | Clarify what you're actually solving before jumping to solutions | [phases/define-problem.md](phases/define-problem.md) |
-| 2 — Explore Solutions | Generate distinct solutions, map them to the problem, evaluate tradeoffs | [phases/explore-solutions.md](phases/explore-solutions.md) |
+Run this in any repository where you want to use Brainstorm Bear:
 
-## How to Use
+```bash
+curl -sSL https://raw.githubusercontent.com/ma-cohen/brainstorm-bear/main/install.sh | sh
+```
 
-1. Open the phase prompt file
-2. Copy the entire contents
-3. Paste it into your LLM of choice as the first message — then follow the bear's lead
+This installs the Cursor commands to `.cursor/commands/` in your repo.
+
+## Usage
+
+In Cursor chat, type:
+
+| Command | Purpose |
+|---------|---------|
+| `/bb-define-problem` | Clarify what you're actually solving before jumping to solutions |
+| `/bb-explore-solutions` | Generate distinct solutions, map them to the problem, evaluate tradeoffs |
+
+### Workflow
+
+1. Start with `/bb-define-problem` — the bear will interview you one question at a time
+2. Once the problem is clear, the bear saves a problem statement to `.brainstorm-bear/<name>-<date>/problem.md`
+3. Use `/bb-explore-solutions` to explore solutions based on the problem statement
+4. The bear saves the decision record to `.brainstorm-bear/<name>-<date>/solutions.md`
 
 ## Design Philosophy
 
