@@ -24,6 +24,7 @@ In Cursor chat, type:
 | `/bb-research` | Gather information from codebase or web to fill knowledge gaps |
 | `/bb-explore-solutions` | Generate distinct solutions, map them to the problem, evaluate tradeoffs |
 | `/bb-review-design` | Pressure-test a proposed design, find breakage risks, and improve it before implementation |
+| `/bb-push` | Stage, commit, and push all safe changes to the repository default branch |
 
 ### Workflow
 
