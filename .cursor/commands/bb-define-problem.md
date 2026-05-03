@@ -45,6 +45,6 @@ The statement must cover:
 After producing the problem statement, save it to the repository:
 
 1. Infer a short kebab-case name from the conversation that captures the core problem (e.g., "auth-refactor", "slow-onboarding", "flaky-tests")
-2. Save the problem statement to `.brainstorm-bear/<name>-<YYYY-MM-DD>/problem.md`
+2. Save the problem statement to `brainstorm-bear/<name>-<YYYY-MM-DD>/problem.md`
 
 This creates a record the developer can reference later and pass to Phase 2.

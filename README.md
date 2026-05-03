@@ -29,13 +29,13 @@ In Cursor chat, type:
 ### Workflow
 
 1. Start with `/bb-define-problem` — the bear will interview you one question at a time
-2. Once the problem is clear, the bear saves a problem statement to `.brainstorm-bear/<name>-<date>/problem.md`
+2. Once the problem is clear, the bear saves a problem statement to `brainstorm-bear/<name>-<date>/problem.md`
 3. Use `/bb-explore-solutions` to explore solutions based on the problem statement
-4. The bear saves the decision record to `.brainstorm-bear/<name>-<date>/solutions.md`
+4. The bear saves the decision record to `brainstorm-bear/<name>-<date>/solutions.md`
 5. Use `/bb-review-design` to review the selected design against the problem context, future feature pressure, and implementation risks
-6. The bear saves the review to `.brainstorm-bear/<name>-<date>/design-review.md`
+6. The bear saves the review to `brainstorm-bear/<name>-<date>/design-review.md`
 
-**Research when you need it:** At any point, if you realize you're missing information — about how something works in the codebase, what a library supports, or how others have solved similar problems — use `/bb-research`. The bear will help you explore the codebase and/or search the web, then synthesize findings to `.brainstorm-bear/<name>-<date>/research.md`.
+**Research when you need it:** At any point, if you realize you're missing information — about how something works in the codebase, what a library supports, or how others have solved similar problems — use `/bb-research`. The bear will help you explore the codebase and/or search the web, then synthesize findings to `brainstorm-bear/<name>-<date>/research.md`.
 
 ## Design Philosophy
 

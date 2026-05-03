@@ -25,10 +25,10 @@ You are looking for whether the design:
 
 Before reviewing, read the design carefully. If available, also read any relevant Brainstorm Bear artifacts:
 
-- `.brainstorm-bear/<name>-<date>/problem.md`
-- `.brainstorm-bear/<name>-<date>/solutions.md`
-- `.brainstorm-bear/<name>-<date>/research.md`
-- `.brainstorm-bear/<name>-<date>/research-2.md`, `research-3.md`, etc.
+- `brainstorm-bear/<name>-<date>/problem.md`
+- `brainstorm-bear/<name>-<date>/solutions.md`
+- `brainstorm-bear/<name>-<date>/research.md`
+- `brainstorm-bear/<name>-<date>/research-2.md`, `research-3.md`, etc.
 
 If the developer has not provided enough design context to review, ask for the design or the file path. Ask only one question.
 
@@ -76,7 +76,7 @@ The review must cover:
 
 After producing the design review, save it to the repository:
 
-1. If a `.brainstorm-bear/<name>-<date>/` folder already exists for this problem, save there as `design-review.md` (or `design-review-2.md`, `design-review-3.md` if multiple review sessions)
-2. If no folder exists yet, infer a short kebab-case name from the conversation and create `.brainstorm-bear/<name>-<YYYY-MM-DD>/design-review.md`
+1. If a `brainstorm-bear/<name>-<date>/` folder already exists for this problem, save there as `design-review.md` (or `design-review-2.md`, `design-review-3.md` if multiple review sessions)
+2. If no folder exists yet, infer a short kebab-case name from the conversation and create `brainstorm-bear/<name>-<YYYY-MM-DD>/design-review.md`
 
 This creates a record the developer can reference before implementation or after the design changes.

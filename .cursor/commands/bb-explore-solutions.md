@@ -99,4 +99,4 @@ For each solution that was considered but rejected:
 
 ## Saving the Output
 
-After producing the synthesis, save it to the same `.brainstorm-bear/<name>-<date>/` folder where the problem statement lives. Save as `solutions.md`.
+After producing the synthesis, save it to the same `brainstorm-bear/<name>-<date>/` folder where the problem statement lives. Save as `solutions.md`.

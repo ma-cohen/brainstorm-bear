@@ -67,7 +67,7 @@ The summary must cover:
 
 After producing the research summary, save it to the repository:
 
-1. If a `.brainstorm-bear/<name>-<date>/` folder already exists for this problem, save there as `research.md` (or `research-2.md`, `research-3.md` if multiple research sessions)
-2. If no folder exists yet, infer a short kebab-case name from the conversation and create `.brainstorm-bear/<name>-<YYYY-MM-DD>/research.md`
+1. If a `brainstorm-bear/<name>-<date>/` folder already exists for this problem, save there as `research.md` (or `research-2.md`, `research-3.md` if multiple research sessions)
+2. If no folder exists yet, infer a short kebab-case name from the conversation and create `brainstorm-bear/<name>-<YYYY-MM-DD>/research.md`
 
 This creates a record the developer can reference during problem definition or solution exploration.
