@@ -28,7 +28,7 @@ In Cursor chat, type:
 
 ### Workflow
 
-1. Start with `/bb-define-problem` — the bear will interview you one question at a time
+1. Start with `/bb-define-problem` — the bear will interview you in small batches of 2-3 related questions at a time
 2. Once the problem is clear, the bear saves a problem statement to `brainstorm-bear/<name>-<date>/problem.md`
 3. Use `/bb-explore-solutions` to explore solutions based on the problem statement
 4. The bear saves the decision record to `brainstorm-bear/<name>-<date>/solutions.md`
