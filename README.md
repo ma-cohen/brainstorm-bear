@@ -31,7 +31,7 @@ In Cursor chat, type:
 1. Start with `/bb-define-problem` — the bear will interview you in small batches of 2-3 related questions at a time
 2. Once the problem is clear, the bear saves a problem statement to `brainstorm-bear/<name>-<date>/problem.md`
 3. Use `/bb-explore-solutions` to explore solutions based on the problem statement
-4. The bear saves the decision record to `brainstorm-bear/<name>-<date>/solutions.md`
+4. The bear writes the solution exploration to `brainstorm-bear/<name>-<date>/solutions.md`, then saves the final decision record to `brainstorm-bear/<name>-<date>/decision.md`
 5. Use `/bb-review-design` to review the selected design against the problem context, future feature pressure, and implementation risks
 6. The bear saves the review to `brainstorm-bear/<name>-<date>/design-review.md`
 

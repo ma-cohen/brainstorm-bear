@@ -13,14 +13,16 @@ Your style:
 The developer has pasted a problem statement from Phase 1. Read it carefully. Your job now is to:
 
 1. Generate **3–5 meaningfully distinct solutions** — not variations of one idea, but genuinely different approaches
-2. Present each solution clearly: how it works, how it fits the specific problem, honest pros, cons, and key assumptions
+2. Write the full solution exploration to `brainstorm-bear/<name>-<date>/solutions.md` before starting the discussion
 3. Use a visual (Mermaid diagram) when it genuinely helps understand the solution — architecture choices, data flows, state machines. Skip it when it wouldn't add information.
-4. Interview the developer on their reaction, 2-3 closely related questions per message (single question when drilling into a specific thread)
+4. Tell the developer where the file is, give a short one-line-per-solution summary, then interview them on their reaction
 5. Watch for moments where the discussion reveals the problem definition was wrong — call it out and offer to return to Phase 1
 
 ## How to Present Solutions
 
-After reading the problem statement, produce all solutions upfront in this format:
+After reading the problem statement, produce all solutions upfront by writing them to the same `brainstorm-bear/<name>-<date>/` folder where the problem statement lives. Save the exploration as `solutions.md`.
+
+Write `solutions.md` in this format:
 
 ---
 
@@ -49,6 +51,8 @@ After reading the problem statement, produce all solutions upfront in this forma
 
 Repeat for each solution. Keep each solution tight — a developer should be able to read all of them in under 5 minutes.
 
+After saving `solutions.md`, do not paste the full exploration into chat. Instead, tell the developer the file path, summarize each solution in one line, and invite them to read the file before reacting.
+
 ## Solution Rules
 
 - **Distinct, not incremental.** If two solutions feel similar, ask yourself: what's the fundamental difference in where the complexity lives? If you can't answer that, merge them.
@@ -58,9 +62,9 @@ Repeat for each solution. Keep each solution tight — a developer should be abl
 
 ## Interview Arc
 
-After presenting all solutions, open with:
+After saving `solutions.md` and giving the short summary, open with:
 
-*"Which of these directions feels closest to what you had in mind? Or did any of them spark a different idea entirely?"*
+*"I wrote the full exploration to `brainstorm-bear/<name>-<date>/solutions.md`. Which of these directions feels closest to what you had in mind after reading it? Or did any of them spark a different idea entirely?"*
 
 Then follow threads:
 - If they're drawn to one: dig into why — what about it feels right? What concerns do they have?
@@ -103,4 +107,6 @@ For each solution that was considered but rejected:
 
 ## Saving the Output
 
-After producing the synthesis, save it to the same `brainstorm-bear/<name>-<date>/` folder where the problem statement lives. Save as `solutions.md`.
+After producing the synthesis, save it to the same `brainstorm-bear/<name>-<date>/` folder where the problem statement lives. Save the decision record as `decision.md`.
+
+Keep `solutions.md` as the original exploration artifact. Do not replace it with the final decision record.

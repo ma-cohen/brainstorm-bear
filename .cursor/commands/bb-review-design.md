@@ -27,6 +27,7 @@ Before reviewing, read the design carefully. If available, also read any relevan
 
 - `brainstorm-bear/<name>-<date>/problem.md`
 - `brainstorm-bear/<name>-<date>/solutions.md`
+- `brainstorm-bear/<name>-<date>/decision.md`
 - `brainstorm-bear/<name>-<date>/research.md`
 - `brainstorm-bear/<name>-<date>/research-2.md`, `research-3.md`, etc.
 
